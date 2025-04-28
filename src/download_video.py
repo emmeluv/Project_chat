@@ -10,9 +10,9 @@ def download_video(video_url, path='datas/videos/'):
             os.makedirs(path)
 
         ydl_opts = {
-            'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4', # เลือก best video+audio mp4
-            'merge_output_format': 'mp4',                          # รวมเป็น mp4
-            'outtmpl': os.path.join(path, '%(title)s.%(ext)s'),     # ตั้งชื่อไฟล์ตาม Title
+            'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4',
+            'merge_output_format': 'mp4',
+            'outtmpl': os.path.join(path, '%(title)s.%(ext)s'),
             'quiet': False,
             'noprogress': False,
         }
