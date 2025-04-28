@@ -1,4 +1,23 @@
+# For frame extraction and image processing
+opencv-python
+
+# For subtitle (.vtt) handling
+webvtt-py
+
+# For vector database
+lancedb
+
+# For embeddings and AI tools
+langchain
+torch
+
+# For BridgeTower embedding
+transformers
+sentencepiece  # บางโมเดลใช้
+accelerate     # ช่วยเร่ง hardware acceleration
+
+# (Optional) สำหรับจัดการไฟล์ env ถ้ามี API KEY
+python-dotenv
+
+# (Optional) สำหรับแอพเว็บ ถ้ามี Streamlit frontend
 streamlit
-streamlit-chat
-pytube
-yt-dlp
