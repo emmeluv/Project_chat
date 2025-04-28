@@ -17,3 +17,5 @@ datas/videos/
 
 # Optional
 .env
+
+shared_data/
